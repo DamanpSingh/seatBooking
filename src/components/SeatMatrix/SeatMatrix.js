@@ -29,8 +29,8 @@ const SeatMatrix = () => {
         let autoSelectedSeats = 0;
         let autoSelectedPrice = 0;
         let autoSelectionSeatsRequirement = newBookedSeats.requiredSeats - (newBookedSeats.noOfSeatsBooked + 1);
-        if ((rowSize - (currSeatIndex)) > autoSelectionSeatsRequirement) {
-            for (let seatIndex = currSeatIndex + 1; seatIndex <= currSeatIndex + autoSelectionSeatsRequirement; seatIndex++) {
+        if (rowSize > currSeatIndex+1) {
+            for (let seatIndex = currSeatIndex + 1; seatIndex < rowSize && seatIndex <= currSeatIndex + autoSelectionSeatsRequirement; seatIndex++) {
                 if (newSeatsDeatil.seatGroups[groupID].rows[rowID][seatIndex].status !== 'available') {
                     break;
                 } else {
