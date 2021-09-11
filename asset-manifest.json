@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/seatBooking/static/css/main.f9d24d4c.chunk.css",
-    "main.js": "/seatBooking/static/js/main.1149f91a.chunk.js",
-    "main.js.map": "/seatBooking/static/js/main.1149f91a.chunk.js.map",
+    "main.js": "/seatBooking/static/js/main.17b18972.chunk.js",
+    "main.js.map": "/seatBooking/static/js/main.17b18972.chunk.js.map",
     "runtime-main.js": "/seatBooking/static/js/runtime-main.0fa9d744.js",
     "runtime-main.js.map": "/seatBooking/static/js/runtime-main.0fa9d744.js.map",
     "static/js/2.831a3f5c.chunk.js": "/seatBooking/static/js/2.831a3f5c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.0fa9d744.js",
     "static/js/2.831a3f5c.chunk.js",
     "static/css/main.f9d24d4c.chunk.css",
-    "static/js/main.1149f91a.chunk.js"
+    "static/js/main.17b18972.chunk.js"
   ]
 }
