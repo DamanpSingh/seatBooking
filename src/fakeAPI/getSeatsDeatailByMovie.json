@@ -53,8 +53,8 @@
                             },
                             {
                                 "seatNumber": 11,
-                                "status": "available",
-                                "specialChargePercentage": 10
+                                "status": "available"
+                                
                             },
                             {
                                 "seatNumber": 12,
@@ -906,8 +906,7 @@
                                 },
                                 {
                                     "seatNumber": 11,
-                                    "status": "available",
-                                    "specialChargePercentage": 10
+                                    "status": "available"
                                 },
                                 {
                                     "seatNumber": 12,
@@ -1758,8 +1757,8 @@
                                 },
                                 {
                                     "seatNumber": 11,
-                                    "status": "available",
-                                    "specialChargePercentage": 10
+                                    "status": "available"
+                                    
                                 },
                                 {
                                     "seatNumber": 12,
