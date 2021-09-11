@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/seatBooking/static/css/main.f9d24d4c.chunk.css",
-    "main.js": "/seatBooking/static/js/main.45ad9748.chunk.js",
-    "main.js.map": "/seatBooking/static/js/main.45ad9748.chunk.js.map",
+    "main.css": "/seatBooking/static/css/main.3675faea.chunk.css",
+    "main.js": "/seatBooking/static/js/main.0868b50a.chunk.js",
+    "main.js.map": "/seatBooking/static/js/main.0868b50a.chunk.js.map",
     "runtime-main.js": "/seatBooking/static/js/runtime-main.0fa9d744.js",
     "runtime-main.js.map": "/seatBooking/static/js/runtime-main.0fa9d744.js.map",
     "static/js/2.b79d0d0c.chunk.js": "/seatBooking/static/js/2.b79d0d0c.chunk.js",
     "static/js/2.b79d0d0c.chunk.js.map": "/seatBooking/static/js/2.b79d0d0c.chunk.js.map",
     "index.html": "/seatBooking/index.html",
-    "static/css/main.f9d24d4c.chunk.css.map": "/seatBooking/static/css/main.f9d24d4c.chunk.css.map",
+    "static/css/main.3675faea.chunk.css.map": "/seatBooking/static/css/main.3675faea.chunk.css.map",
     "static/js/2.b79d0d0c.chunk.js.LICENSE.txt": "/seatBooking/static/js/2.b79d0d0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0fa9d744.js",
     "static/js/2.b79d0d0c.chunk.js",
-    "static/css/main.f9d24d4c.chunk.css",
-    "static/js/main.45ad9748.chunk.js"
+    "static/css/main.3675faea.chunk.css",
+    "static/js/main.0868b50a.chunk.js"
   ]
 }
