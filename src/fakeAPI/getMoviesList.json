@@ -1,0 +1,19 @@
+{
+    "getMoviesList": [
+        {
+            "movieId": "movie2001-lord-of-the-rings",
+            "movieName" : "Lord of The Rings",
+            "imgURL": "https://cdn.shopify.com/s/files/1/2241/4395/products/836357807_431_e835470d-93f8-4a96-ad59-3f192f1ee988_1024x1024.jpg?v=1536975628"
+        },
+        {
+            "movieId": "movie2008-the-hobbit",
+            "movieName" : "The Hobbit",
+            "imgURL": "https://i.pinimg.com/736x/53/8c/56/538c56de7726c6109640f410e55b2a30.jpg"
+        },
+        {
+            "movieId": "movie2016-avengers-endgame",
+            "movieName" : "Avengers Endgame",
+            "imgURL": "https://cdn.onebauer.media/one/empire-images/articles/5ca1ec3f133d503e3a486a2e/avengers-russian.jpg?format=jpg&quality=80&width=440&ratio=1-1&resize=aspectfit"
+        }
+    ]
+}

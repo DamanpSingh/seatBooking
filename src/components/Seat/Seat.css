@@ -1,0 +1,37 @@
+.seat {
+    background-color: #fff;
+    color: #6feaf6;
+    height: 15px;
+    width: 30px;
+    margin: 5px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid #000;
+    border-width: 1px;
+    border-color:  #6feaf6;
+    font-family: 'Lato', 'sans-serif';
+    text-align: center;
+}
+
+.seat:hover {
+    background-color: #6feaf6;
+    color: white;
+    cursor: pointer;
+}
+.seat.selected {
+    background-color: #6feaf6;
+    color: white;
+}
+.seat.occupied {
+    background-color: #9494a5;
+    border-color:  #9494a5;
+    color: #d4d4d6;
+}
+.occupied:hover {
+    cursor: not-allowed;
+}
+.midSeat {
+    margin-right: 50px;
+}

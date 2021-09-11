@@ -1,0 +1,2573 @@
+{
+    "getSeatsDeatailByMovie": {
+        "movie2001-lord-of-the-rings": {
+            "movieId": 1,
+            "movieName": "Lord Of the Rings",
+            "seatGroups": {
+                "group1": {
+                    "groupName": "VIP",
+                    "seatPrice": 500,
+                    "rows": {
+                        "A": [
+                            {
+                                "seatNumber": 1,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 2,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 3,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 4,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 5,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 6,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 7,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 8,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 9,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 10,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 11,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 12,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 13,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 14,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 15,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 16,
+                                "status": "occupied",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 17,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 18,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 19,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 20,
+                                "status": "available"
+                            }
+                        ],
+                        "B": [
+                            {
+                                "seatNumber": 21,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 22,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 23,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 24,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 25,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 26,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 27,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 28,
+                                "status": "occupied",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 29,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 30,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 31,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 32,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 33,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 34,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 35,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 36,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 37,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 38,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 39,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 40,
+                                "status": "available"
+                            }
+                        ]
+                    }
+                },
+                "group2": {
+                    "groupName": "EXECUTIVE",
+                    "seatPrice": 300,
+                    "rows": {
+                        "C": [
+                            {
+                                "seatNumber": 1,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 2,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 3,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 4,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 5,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 6,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 7,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 8,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 9,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 10,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 11,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 12,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 13,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 14,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 15,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 16,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 17,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 18,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 19,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 20,
+                                "status": "available"
+                            }
+                        ],
+                        "D": [
+                            {
+                                "seatNumber": 21,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 22,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 23,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 24,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 25,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 26,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 27,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 28,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 29,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 30,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 31,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 32,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 33,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 34,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 35,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 36,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 37,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 38,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 39,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 40,
+                                "status": "available"
+                            }
+                        ],
+                        "E": [
+                            {
+                                "seatNumber": 41,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 42,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 43,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 44,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 45,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 46,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 47,
+                                "status": "occupied",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 48,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 49,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 50,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 51,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 52,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 53,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 54,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 55,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 56,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 57,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 58,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 59,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 60,
+                                "status": "available"
+                            }
+                        ],
+                        "F": [
+                            {
+                                "seatNumber": 61,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 62,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 63,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 64,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 65,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 66,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 67,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 68,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 69,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 70,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 71,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 72,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 73,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 74,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 75,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 76,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 77,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 78,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 79,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 80,
+                                "status": "available"
+                            }
+                        ]
+                    }
+                },
+                "group3": {
+                    "groupName": "NORMAL",
+                    "seatPrice": 200,
+                    "rows": {
+                        "G": [
+                            {
+                                "seatNumber": 1,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 2,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 3,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 4,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 5,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 6,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 7,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 8,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 9,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 10,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 11,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 12,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 13,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 14,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 15,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 16,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 17,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 18,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 19,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 20,
+                                "status": "occupied"
+                            }
+                        ],
+                        "H": [
+                            {
+                                "seatNumber": 21,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 22,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 23,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 24,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 25,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 26,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 27,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 28,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 29,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 30,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 31,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 32,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 33,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 34,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 35,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 36,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 37,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 38,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 39,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 40,
+                                "status": "available"
+                            }
+                        ],
+                        "I": [
+                            {
+                                "seatNumber": 41,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 42,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 43,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 44,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 45,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 46,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 47,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 48,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 49,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 50,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 51,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 52,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 53,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 54,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 55,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 56,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 57,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 58,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 59,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 60,
+                                "status": "available"
+                            }
+                        ],
+                        "J": [
+                            {
+                                "seatNumber": 61,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 62,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 63,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 64,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 65,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 66,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 67,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 68,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 69,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 70,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 71,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 72,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 73,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 74,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 75,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 76,
+                                "status": "available",
+                                "specialChargePercentage": 10
+                            },
+                            {
+                                "seatNumber": 77,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 78,
+                                "status": "occupied"
+                            },
+                            {
+                                "seatNumber": 79,
+                                "status": "available"
+                            },
+                            {
+                                "seatNumber": 80,
+                                "status": "available"
+                            }
+                        ]
+                    }
+                }
+            }
+            },
+            "movie2008-the-hobbit": {
+                "movieId": 2,
+                "movieName": "The Hobbit",
+                "seatGroups": {
+                    "group1": {
+                        "groupName": "VIP",
+                        "seatPrice": 500,
+                        "rows": {
+                            "A": [
+                                {
+                                    "seatNumber": 1,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 2,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 3,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 4,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 5,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 6,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 7,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 8,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 9,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 10,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 11,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 12,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 13,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 14,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 15,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 16,
+                                    "status": "occupied",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 17,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 18,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 19,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 20,
+                                    "status": "available"
+                                }
+                            ],
+                            "B": [
+                                {
+                                    "seatNumber": 21,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 22,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 23,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 24,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 25,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 26,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 27,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 28,
+                                    "status": "occupied",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 29,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 30,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 31,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 32,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 33,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 34,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 35,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 36,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 37,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 38,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 39,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 40,
+                                    "status": "available"
+                                }
+                            ]
+                        }
+                    },
+                    "group2": {
+                        "groupName": "EXECUTIVE",
+                        "seatPrice": 300,
+                        "rows": {
+                            "C": [
+                                {
+                                    "seatNumber": 1,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 2,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 3,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 4,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 5,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 6,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 7,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 8,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 9,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 10,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 11,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 12,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 13,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 14,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 15,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 16,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 17,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 18,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 19,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 20,
+                                    "status": "available"
+                                }
+                            ],
+                            "D": [
+                                {
+                                    "seatNumber": 21,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 22,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 23,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 24,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 25,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 26,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 27,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 28,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 29,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 30,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 31,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 32,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 33,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 34,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 35,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 36,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 37,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 38,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 39,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 40,
+                                    "status": "available"
+                                }
+                            ],
+                            "E": [
+                                {
+                                    "seatNumber": 41,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 42,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 43,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 44,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 45,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 46,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 47,
+                                    "status": "occupied",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 48,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 49,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 50,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 51,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 52,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 53,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 54,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 55,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 56,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 57,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 58,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 59,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 60,
+                                    "status": "available"
+                                }
+                            ],
+                            "F": [
+                                {
+                                    "seatNumber": 61,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 62,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 63,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 64,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 65,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 66,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 67,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 68,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 69,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 70,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 71,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 72,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 73,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 74,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 75,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 76,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 77,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 78,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 79,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 80,
+                                    "status": "available"
+                                }
+                            ]
+                        }
+                    },
+                    "group3": {
+                        "groupName": "NORMAL",
+                        "seatPrice": 200,
+                        "rows": {
+                            "G": [
+                                {
+                                    "seatNumber": 1,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 2,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 3,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 4,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 5,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 6,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 7,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 8,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 9,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 10,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 11,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 12,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 13,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 14,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 15,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 16,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 17,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 18,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 19,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 20,
+                                    "status": "occupied"
+                                }
+                            ],
+                            "H": [
+                                {
+                                    "seatNumber": 21,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 22,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 23,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 24,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 25,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 26,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 27,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 28,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 29,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 30,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 31,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 32,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 33,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 34,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 35,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 36,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 37,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 38,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 39,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 40,
+                                    "status": "available"
+                                }
+                            ],
+                            "I": [
+                                {
+                                    "seatNumber": 41,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 42,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 43,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 44,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 45,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 46,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 47,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 48,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 49,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 50,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 51,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 52,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 53,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 54,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 55,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 56,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 57,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 58,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 59,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 60,
+                                    "status": "available"
+                                }
+                            ],
+                            "J": [
+                                {
+                                    "seatNumber": 61,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 62,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 63,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 64,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 65,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 66,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 67,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 68,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 69,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 70,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 71,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 72,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 73,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 74,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 75,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 76,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 77,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 78,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 79,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 80,
+                                    "status": "available"
+                                }
+                            ]
+                        }
+                    }
+                } 
+            },
+            "movie2016-avengers-endgame": {
+                "movieId": 3,
+                "movieName": "Avengers Endgame",
+                "seatGroups": {
+                    "group1": {
+                        "groupName": "VIP",
+                        "seatPrice": 500,
+                        "rows": {
+                            "A": [
+                                {
+                                    "seatNumber": 1,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 2,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 3,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 4,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 5,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 6,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 7,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 8,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 9,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 10,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 11,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 12,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 13,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 14,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 15,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 16,
+                                    "status": "occupied",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 17,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 18,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 19,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 20,
+                                    "status": "available"
+                                }
+                            ],
+                            "B": [
+                                {
+                                    "seatNumber": 21,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 22,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 23,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 24,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 25,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 26,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 27,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 28,
+                                    "status": "occupied",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 29,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 30,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 31,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 32,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 33,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 34,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 35,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 36,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 37,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 38,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 39,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 40,
+                                    "status": "available"
+                                }
+                            ]
+                        }
+                    },
+                    "group2": {
+                        "groupName": "EXECUTIVE",
+                        "seatPrice": 300,
+                        "rows": {
+                            "C": [
+                                {
+                                    "seatNumber": 1,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 2,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 3,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 4,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 5,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 6,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 7,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 8,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 9,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 10,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 11,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 12,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 13,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 14,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 15,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 16,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 17,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 18,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 19,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 20,
+                                    "status": "available"
+                                }
+                            ],
+                            "D": [
+                                {
+                                    "seatNumber": 21,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 22,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 23,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 24,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 25,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 26,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 27,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 28,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 29,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 30,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 31,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 32,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 33,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 34,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 35,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 36,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 37,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 38,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 39,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 40,
+                                    "status": "available"
+                                }
+                            ],
+                            "E": [
+                                {
+                                    "seatNumber": 41,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 42,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 43,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 44,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 45,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 46,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 47,
+                                    "status": "occupied",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 48,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 49,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 50,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 51,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 52,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 53,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 54,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 55,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 56,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 57,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 58,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 59,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 60,
+                                    "status": "available"
+                                }
+                            ],
+                            "F": [
+                                {
+                                    "seatNumber": 61,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 62,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 63,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 64,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 65,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 66,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 67,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 68,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 69,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 70,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 71,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 72,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 73,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 74,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 75,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 76,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 77,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 78,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 79,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 80,
+                                    "status": "available"
+                                }
+                            ]
+                        }
+                    },
+                    "group3": {
+                        "groupName": "NORMAL",
+                        "seatPrice": 200,
+                        "rows": {
+                            "G": [
+                                {
+                                    "seatNumber": 1,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 2,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 3,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 4,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 5,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 6,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 7,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 8,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 9,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 10,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 11,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 12,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 13,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 14,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 15,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 16,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 17,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 18,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 19,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 20,
+                                    "status": "occupied"
+                                }
+                            ],
+                            "H": [
+                                {
+                                    "seatNumber": 21,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 22,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 23,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 24,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 25,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 26,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 27,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 28,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 29,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 30,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 31,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 32,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 33,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 34,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 35,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 36,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 37,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 38,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 39,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 40,
+                                    "status": "available"
+                                }
+                            ],
+                            "I": [
+                                {
+                                    "seatNumber": 41,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 42,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 43,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 44,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 45,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 46,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 47,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 48,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 49,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 50,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 51,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 52,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 53,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 54,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 55,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 56,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 57,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 58,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 59,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 60,
+                                    "status": "available"
+                                }
+                            ],
+                            "J": [
+                                {
+                                    "seatNumber": 61,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 62,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 63,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 64,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 65,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 66,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 67,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 68,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 69,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 70,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 71,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 72,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 73,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 74,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 75,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 76,
+                                    "status": "available",
+                                    "specialChargePercentage": 10
+                                },
+                                {
+                                    "seatNumber": 77,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 78,
+                                    "status": "occupied"
+                                },
+                                {
+                                    "seatNumber": 79,
+                                    "status": "available"
+                                },
+                                {
+                                    "seatNumber": 80,
+                                    "status": "available"
+                                }
+                            ]
+                        }
+                    }
+                }
+             
+            }
+        }
+    }

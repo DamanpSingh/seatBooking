@@ -1,0 +1,65 @@
+.requiredSeatsSelector {
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+.seatOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.selectNoOfSeats {
+    color: #f84464;
+    border: solid #f84464;
+    border-width: 1px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.selectNoOfSeats.selected {
+    background-color: #f84464;
+    color: white;
+}
+
+.selectNoOfSeats:hover {
+    background-color: #f84464;
+    color: white;
+    cursor: pointer;
+}
+
+.seatSelect {
+    background-color: #f84464;
+    text-align: center;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.seatSelect:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.2);
+}
