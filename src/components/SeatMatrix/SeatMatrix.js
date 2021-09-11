@@ -21,8 +21,13 @@ const SeatMatrix = () => {
             ...newSeatsDeatil.seatGroups[groupID].rows[rowID][currSeatIndex],
             status: "selected"
         }
+        let selectedPrice = seatPrice;
+        if (newSeatsDeatil.seatGroups[groupID].rows[rowID][currSeatIndex].specialChargePercentage) {
+            selectedPrice += (seatPrice * newSeatsDeatil.seatGroups[groupID].rows[rowID][currSeatIndex].specialChargePercentage) / 100;
+        }
         // Select the adjacent Right seats, if available
         let autoSelectedSeats = 0;
+        let autoSelectedPrice = 0;
         let autoSelectionSeatsRequirement = newBookedSeats.requiredSeats - (newBookedSeats.noOfSeatsBooked + 1);
         if ((rowSize - (currSeatIndex)) > autoSelectionSeatsRequirement) {
             for (let seatIndex = currSeatIndex + 1; seatIndex <= currSeatIndex + autoSelectionSeatsRequirement; seatIndex++) {
@@ -30,6 +35,10 @@ const SeatMatrix = () => {
                     break;
                 } else {
                     autoSelectedSeats++;
+                    autoSelectedPrice += seatPrice;
+                    if (newSeatsDeatil.seatGroups[groupID].rows[rowID][seatIndex].specialChargePercentage) {
+                        autoSelectedPrice += (seatPrice * newSeatsDeatil.seatGroups[groupID].rows[rowID][seatIndex].specialChargePercentage) / 100;
+                    }
                     newSeatsDeatil.seatGroups[groupID].rows[rowID][seatIndex] = {
                         ...newSeatsDeatil.seatGroups[groupID].rows[rowID][seatIndex],
                         status: "selected"
@@ -38,7 +47,7 @@ const SeatMatrix = () => {
             }
         }
         newBookedSeats.noOfSeatsBooked = newBookedSeats.noOfSeatsBooked + autoSelectedSeats + 1;
-        newBookedSeats.totalAmmount = newBookedSeats.noOfSeatsBooked * seatPrice;
+        newBookedSeats.totalAmmount = newBookedSeats.totalAmmount + selectedPrice + autoSelectedPrice;
         return { seatsDetail: newSeatsDeatil, bookedSeats: newBookedSeats };
     }
     const unSelectSeatsHandler = (currSeatsDetail, currBookedSeats) => {
@@ -104,6 +113,7 @@ const SeatMatrix = () => {
                                                         status={(index === group.rows[row].length / 2) ? `${seat.status} midSeat` : seat.status}
                                                         restricted={selectedGroupId !== groupID && selectedGroupId}
                                                         seatNumber={seat.seatNumber}
+                                                        extraCharges={seat.specialChargePercentage}
                                                     />
                                                 </div>
                                             )
@@ -122,6 +132,20 @@ const SeatMatrix = () => {
     const renderFooter = <div className="bookingFooter">
         <button className="payButton">Pay {bookedSeats.totalAmmount}</button>
     </div>
+    const seatsInfo = <div className="seatInfor">
+        <div className="seatType">
+            <Seat dummy={true} status="available" />
+            <div className="seatDesc">Available</div>
+        </div>
+        <div className="seatType">
+            <Seat dummy={true} status="selected" />
+            <div className="seatDesc">Selected</div>
+        </div>
+        <div className="seatType">
+            <Seat dummy={true} status="occupied" />
+            <div className="seatDesc">Occupied</div>
+        </div >
+    </div >
     return (
         <div>
             <div className="bookingheader">
@@ -129,7 +153,7 @@ const SeatMatrix = () => {
                 <div className="totalSelectedSeats">{bookedSeats.noOfSeatsBooked} Seat{bookedSeats.noOfSeatsBooked !== 1 && 's'} Selected</div>
             </div>
             {renderSeats}
-            {bookedSeats.requiredSeats === bookedSeats.noOfSeatsBooked && renderFooter}
+            {(bookedSeats.requiredSeats === bookedSeats.noOfSeatsBooked) ? renderFooter : seatsInfo}
         </div>
     );
 }

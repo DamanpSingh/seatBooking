@@ -74,8 +74,7 @@
                             },
                             {
                                 "seatNumber": 16,
-                                "status": "occupied",
-                                "specialChargePercentage": 10
+                                "status": "occupied"
                             },
                             {
                                 "seatNumber": 17,
@@ -126,8 +125,7 @@
                             },
                             {
                                 "seatNumber": 28,
-                                "status": "occupied",
-                                "specialChargePercentage": 10
+                                "status": "occupied"
                             },
                             {
                                 "seatNumber": 29,
@@ -377,8 +375,7 @@
                             },
                             {
                                 "seatNumber": 47,
-                                "status": "occupied",
-                                "specialChargePercentage": 10
+                                "status": "occupied"
                             },
                             {
                                 "seatNumber": 48,
@@ -930,9 +927,7 @@
                                 },
                                 {
                                     "seatNumber": 16,
-                                    "status": "occupied",
-                                    "specialChargePercentage": 10
-                                },
+                                    "status": "occupied"                                },
                                 {
                                     "seatNumber": 17,
                                     "status": "occupied"
@@ -982,8 +977,7 @@
                                 },
                                 {
                                     "seatNumber": 28,
-                                    "status": "occupied",
-                                    "specialChargePercentage": 10
+                                    "status": "occupied"
                                 },
                                 {
                                     "seatNumber": 29,
@@ -1233,8 +1227,7 @@
                                 },
                                 {
                                     "seatNumber": 47,
-                                    "status": "occupied",
-                                    "specialChargePercentage": 10
+                                    "status": "occupied"
                                 },
                                 {
                                     "seatNumber": 48,
@@ -1786,9 +1779,7 @@
                                 },
                                 {
                                     "seatNumber": 16,
-                                    "status": "occupied",
-                                    "specialChargePercentage": 10
-                                },
+                                    "status": "occupied"                                },
                                 {
                                     "seatNumber": 17,
                                     "status": "occupied"
@@ -1838,8 +1829,7 @@
                                 },
                                 {
                                     "seatNumber": 28,
-                                    "status": "occupied",
-                                    "specialChargePercentage": 10
+                                    "status": "occupied"
                                 },
                                 {
                                     "seatNumber": 29,
@@ -2089,8 +2079,7 @@
                                 },
                                 {
                                     "seatNumber": 47,
-                                    "status": "occupied",
-                                    "specialChargePercentage": 10
+                                    "status": "occupied"
                                 },
                                 {
                                     "seatNumber": 48,

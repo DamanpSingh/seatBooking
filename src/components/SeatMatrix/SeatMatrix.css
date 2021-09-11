@@ -68,3 +68,18 @@
 .seatMatrix{
     margin-top: 20px;
 }
+.seatInfor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.seatType{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.seatDesc{
+    margin-top: 12px;
+}
