@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact component={MovieListings} />
-          <Route path="/booking/:movieId" component={Booking} />
+          <Route path="/seatBooking/" exact component={MovieListings} />
+          <Route path="/seatBooking/booking/:movieId" component={Booking} />
           <Route>404 Not Found!</Route>
         </Switch>
       </Router>
